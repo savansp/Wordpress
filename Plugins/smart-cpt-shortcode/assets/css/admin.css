@@ -1,0 +1,170 @@
+textarea.form-cntrl {
+    height: 200px;
+    width: 100%;
+}
+select.form-cntrl {
+    min-width: 156px;
+}
+.shrt-cd  input {
+    box-shadow: none !important;
+    font-size: 13px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.row {
+    overflow: auto;
+}
+.row .col-2 {
+    float: left;
+    width: 50%;
+}
+.col-2 > label ,.col-1 > label {
+    display: inline-block;
+    min-width: 100px;
+    padding-right: 5px;
+    text-align: right;
+    text-transform: capitalize;
+}
+#cpl_tex {
+    border: 1px solid #eee;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    min-height: 24px;
+}
+.col-1 {
+    padding: 5px;
+}
+.select2-container--default .select2-selection--multiple{
+    border-radius: 0 !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #f1f1f1 !important;
+    border-radius: 0 !important;
+    box-shadow: 2px 5px 0 0 #ddd;
+    margin-bottom: 2px !important;
+    padding: 1px 11px 3px 8px !important;
+    text-transform: capitalize;
+      transition: all 0.2s ease 0s;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice:hover {
+    background-color: #ddd !important;
+    box-shadow: none !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #ea0000 !important;
+    font-size: 16px;
+    margin-right: 5px !important;
+}
+.select2-container--default .select2-selection--multiple {
+    border: 1px solid #ddd !important;
+    
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered::after {
+    color: #898989;
+    content: "\25bc";
+    position: absolute;
+    right: 6px;
+    font-size: 10px;
+    top: 10px;
+}
+#loader_aj .spinner{
+    float:none;
+    position: absolute;
+    left:50%;   
+    top:40%;
+}
+.cpl-settings textarea {
+    height: 250px;
+    width: 95%;
+}
+.main_shortcode {
+    box-shadow: none !important;
+    color: #0073aa !important;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+      padding-top: 5px;
+}
+.main_shortcode.list {
+    color: #32373c !important;
+    font-weight: normal;
+    width: auto;
+}
+.cpptype .form-cntrl {
+    width: 80%;
+}
+.col-1.ri8 .icns {
+     height: 300px;
+    overflow-y: scroll;
+    text-align: center;
+}
+  .icns .dashicons {
+    font-size: 35px;
+     color: #6e6e6e;
+}
+.icns  label {
+    display: block;
+    float: left;
+    height: 35px;
+    width: 35px;
+}
+
+.icns .block {
+    display: inline-block;
+    height: 42px;
+    padding-bottom: 10px;
+    width: 50px;
+}
+.block input[type="radio"]:checked + label{
+    border: 1px solid #0073AA;
+}
+.block input[type="radio"]:checked + label .dashicons{
+    color:#0073AA;
+}
+.block > input[type="radio"] {
+    visibility: hidden;
+}
+#here .col-1 input {
+    width: 60%;
+}
+#here .remove {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border: 1px solid;
+    color: #6e6e6e;
+    cursor: pointer;
+    display: inline;
+    font-size: 27px;
+    margin-left: 10px;
+}
+#here .remove:hover {
+    color: #8d0000;
+}
+.col-1.action .add {
+    display: inline-block;
+}
+.icns .dashicons, .icns .dashicons-before::before{
+    width: auto;
+}
+#acf_shortcode {
+    min-height: 35px;
+    position: relative;
+}
+#cpl_output_shortcode textarea.main_shortcode {
+   color: #333 !important;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: normal;
+    height: 100px;
+}
+
+
+
+
+@media screen and (max-width: 850px) {
+  .row .col-2 {
+    width: 100%;
+}
+}

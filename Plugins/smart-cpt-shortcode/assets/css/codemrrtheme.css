@@ -1,0 +1,27 @@
+.cm-s-default.CodeMirror {background: #000000; color: #e0e0e0;}
+.cm-s-default div.CodeMirror-selected {background: #404040 !important;}
+.cm-s-default .CodeMirror-gutters {background: #000000; border-right: 0px;}
+.cm-s-default .CodeMirror-linenumber {color: #808080;}
+.cm-s-default .CodeMirror-cursor {border-left: 1px solid #c0c0c0 !important;}
+
+.cm-s-default span.cm-comment {color: #3300ff;}
+.cm-s-default span.cm-atom {color: #cc00ff;}
+.cm-s-default span.cm-number {color: #cc00ff;}
+
+.cm-s-default span.cm-property, .cm-s-default span.cm-attribute {color: #33ff00;}
+.cm-s-default span.cm-keyword {color: #ff0000;}
+.cm-s-default span.cm-string {color: #ff0099;}
+
+.cm-s-default span.cm-variable {color: #33ff00;}
+.cm-s-default span.cm-variable-2 {color: #0066ff;}
+.cm-s-default span.cm-def {color: #ff9900;}
+.cm-s-default span.cm-error {background: #ff0000; color: #c0c0c0;}
+.cm-s-default span.cm-bracket {color: #e0e0e0;}
+.cm-s-default span.cm-tag {color: #ff0000;}
+.cm-s-default span.cm-link {color: #cc00ff;}
+
+.cm-s-default .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+.cm-s-default .CodeMirror-activeline-background { background: #202020; }
+.cm-s-default .cm-qualifier {
+    color: #fff;
+}
